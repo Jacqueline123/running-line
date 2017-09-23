@@ -159,3 +159,230 @@
     </body>
 </html>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <!--[if lt IE 9]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <title>Новый запрос на услуги</title>
+                <style type="text/css">
+                body {
+                	background-color: #FFF5D8;
+
+                }
+
+
+                .str  {
+                	margin: 0 auto;
+                	margin-top: 150px;
+                	width: 500px;
+                	outline: 1px solid red;
+                	margin-bottom: 40px;
+                	background-color: white;
+					overflow: hidden; /* Скрываем строку за её пределами */
+
+					white-space: nowrap; /* Запрещаем переносы слов */
+
+               
+                }
+                .str p {
+
+                	/*text-align: right;*/
+                	margin-right: 390px;
+                	display: inline-block;
+                	background-color: #8EE2B2;
+
+
+                	-webkit-animation-name: flapping;
+					-webkit-animation-duration: 15s;
+					-moz-animation-name: flapping;
+					-moz-animation-duration: 15s;
+					animation-name: flapping;
+					animation-duration: 15s;
+
+					animation: flapping 3s forwards;
+					animation-direction: alternate;
+
+
+                }
+				
+
+
+
+
+
+				@keyframes flapping {
+					0% {
+						background-color: #FF0000;
+						visibility: visible;
+
+						margin-left: 500px;
+
+					}
+					10% {
+						background-color: #FF8000;
+						/*visibility: hidden;*/
+					}
+					20% {
+						background-color: #FFFF00;
+						/*visibility: hidden;*/
+					}
+					30% {
+						background-color: #80FF00;
+						/*visibility: hidden;*/
+					}
+					40% {
+						background-color: #00FF00;
+						/*visibility: hidden;*/
+					}
+					50% {
+						background-color: #00FF80;
+						/*visibility: hidden;*/
+					}
+					60% {
+						background-color: #00FFFF;
+						visibility: hidden;
+					}
+					70% {
+						background-color: #0080FF;
+						/*visibility: hidden;*/
+					}
+					80% {
+						background-color: #0000FF;
+						/*visibility: hidden;*/
+					}
+					90% {
+						background-color: #8000FF;
+						/*visibility: hidden;*/
+					}
+					100% {
+						background-color: #FF0080;
+						/*display: none;*/
+						/*font-size: 2em;*/
+						visibility: visible;
+						margin-left: 0;
+
+					}
+				}
+
+
+				  .marquee {
+				    overflow: hidden; /* Скрываем строку за её пределами */
+				    white-space: nowrap; /* Запрещаем переносы слов */
+				    -webkit-animation: marquee 25s linear infinite;
+				    animation: marquee 25s linear infinite;
+				    width:50%;
+				    margin: 0 auto;
+				    background-color: #E9D8FF;
+
+
+				   }
+				   .marquee:hover {
+				    -webkit-animation-play-state: paused;
+				    animation-play-state: paused; /* Пауза */
+				   }
+				   @-webkit-keyframes marquee {
+				    from { text-indent: 200%; }
+				    to { text-indent: -150%; }
+				   }
+				   @keyframes marquee {
+				    from { text-indent: 200%; }
+				    to { text-indent: -150%; }
+				   }
+								
+
+				/*body:hover p {
+					margin-left: 0;
+
+				}*/
+                
+           
+                </style>
+    </head>
+    <body >
+
+
+        	<div class="str">
+        		<p>Перемещаемый обьект</p>
+        	</div>
+
+
+        	<div class="marquee">
+        	  <p>Современная ситуация решительно заполняет 
+				  трагический дедуктивный метод, ломая рамки 
+				  привычных представлений.</p>
+
+			</div>
+ 
+			
+    </body>
+</html>
+
